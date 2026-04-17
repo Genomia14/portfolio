@@ -57,44 +57,58 @@ const projectsData: Record<string, ProjectData> = {
     title: "Weatherly",
     category: "사용자 맞춤형 날씨 기반 서비스",
     image: "/weatherly-real.png",
-    background: ["기상청 데이터를 기반으로 사용자에게 실시간 기상 정보와 더불어 상황에 맞는 스타일 제안을 제공하기 위해 개발되었습니다."],
-    description: "사용자의 위치 정보를 기반으로 기온별 의류 데이터를 매칭하고, 기상 통계 대시보드와 커뮤니티 기능을 결합한 종합 날씨 라이프스타일 서비스입니다.",
+    background: [
+      "기상청 API를 활용해 사용자의 위치나 선택 지역의 실시간 기온, 미세먼지 습도, 강수 확률 정보 제공",
+      "기온별로 세분화된 의류 데이터를 매칭하여 사용자에게 최적화된 스타일 제안",
+      "지역별/온도별 기상 변화 추이를 관리자와 사용자가 확인할 수 있는 대시보드 제공",
+      "사용자들이 실제 착장 사진을 공유하고 의견을 나눌 수 있는 소통 공간 제공"
+    ],
+    description: "실시간 날씨 지도가 포함된 메인페이지와 온도 기반의 옷차림 추천 및 상세 기능을 전담 개발했습니다.",
     features: [
-      "실시간 기온, 미세먼지, 습도 정보 제공 (기상청 API)",
-      "기온별 세분화된 의류 데이터 자동 매칭 시스템",
-      "지역별/온도별 기상 변화 통계 대시보드",
-      "사용자 착장 공유 커뮤니티"
+      "메인페이지 (실시간 날씨 지도)",
+      "옷차림 페이지",
+      "옷차림 상세추천 시스템",
+      "기상 통계 관리자/사용자 대시보드"
     ],
     role: [
       "관리자 대시보드 및 통계 데이터 시각화 페이지 구축",
       "날씨 기반 옷차림 추천/상세보기 핵심 비즈니스 로직 전담",
       "Kakao Map API 기반 지역별 실시간 기상 시각화",
-      "기상 정보 분석 및 통계 지표 변환 백엔드 로직 설계"
+      "Kma, Air Korea API 연동 및 데이터 가공 백엔드 로직 설계"
     ],
-    techStack: ["Java", "Spring Boot", "Thymeleaf", "MariaDB", "jQuery", "Kakao Map API"],
+    techStack: ["Java", "JavaScript", "Thymeleaf", "Spring Boot", "Spring Security", "MariaDB", "jQuery", "Kma API", "Air Korea API", "Kakao API", "ipinfo.io"],
     githubUrl: "https://github.com/RabbitHaru/projectWeatherly.git",
-    teamSize: "3명"
+    teamSize: "3명",
+    diagrams: [
+      { title: "Use Case Diagram", src: "/weatherly-usecase.png" },
+      { title: "Entity Relationship Diagram (ERD)", src: "/weatherly-erd.png" }
+    ]
   },
   "verti": {
     id: "verti",
     title: "Verti",
     category: "커피 원두 판매 및 정보 제공 플랫폼",
     image: "/verti-real.png",
-    background: ["커피 원두에 대한 상세 정보 제공과 함께 직접 구매할 수 있는 이커머스 기능을 결합한 브랜드 플랫폼입니다."],
-    description: "원두의 정의와 특징을 소개하는 브랜딩 페이지를 시작으로, 회원가입과 주문이 가능한 커머스 시스템을 1인 개발로 구축했습니다.",
+    background: [
+      "커피나무의 씨앗인 원두의 정의와 특징, 종류를 상세히 소개하는 브랜딩 페이지 구축",
+      "회원가입과 로그인을 통한 사용자 인증 지원 및 고객 소통을 위한 게시판 기능 구현",
+      "검색 및 페이징 처리가 포함된 효율적인 게시판 아키텍처 설계",
+      "Spring MVC를 적용하여 데이터 처리와 화면 구성을 체계적으로 분리해 유지 보수성 확보"
+    ],
+    description: "커피 브랜딩 페이지 전체 디자인 및 퍼블리싱부터 하위 커머스 시스템의 전 계층을 1인 개발로 구축했습니다.",
     features: [
-      "커피 원두 상세 정보 제공 및 브랜딩 페이지",
-      "회원 인증 및 게시판 소통 기능",
-      "검색 및 페이징 처리가 포함된 게시판 설계",
-      "유지보수성이 높은 Spring MVC 기반 아키텍처"
+      "커피 브랜딩 페이지",
+      "사용자 인증 및 권한 관리",
+      "검색/페이징 지원 게시판",
+      "원두 판매 및 정보 레이아웃"
     ],
     role: [
       "Spring MVC 아키텍처를 적용한 데이터 처리/화면 분리 설계",
+      "Spring JDBC 및 HikariCP를 활용한 효율적인 커넥션 관리",
       "회원가입/인증 및 게시판 시스템 전 계층 구현",
-      "Coffee 브랜딩 페이지 전체 디자인 및 퍼블리싱 (100%)",
-      "JDBC 기반 효율적인 데이터 무결성 보장"
+      "Coffee 브랜딩 페이지 전체 디자인 및 JSP 퍼블리싱 (100%)"
     ],
-    techStack: ["Java", "Spring Boot", "Spring JDBC", "MariaDB", "JSP", "Maven", "jQuery"],
+    techStack: ["Java", "Spring Boot", "Spring JDBC", "MariaDB", "HikariCP", "Maven", "JSP", "HTML5", "CSS3", "JavaScript", "jQuery", "MVC"],
     githubUrl: "https://github.com/Genomia14/Verti.git",
     teamSize: "1인 개발"
   }
