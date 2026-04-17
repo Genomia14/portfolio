@@ -9,10 +9,13 @@ export default function Hero() {
         하드웨어의 논리 위에 소프트웨어의 창의성을 더하여 <br />
         안정적이고 가치 있는 서버를 구축합니다.
       </p>
-      <div style={{ display: 'flex', gap: 'var(--space-sm)', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', gap: 'var(--space-sm)', justifyContent: 'center', flexWrap: 'wrap' }}>
         <a href="#projects" className="btn-primary">프로젝트 보기</a>
         <a href="#experience" className="btn-primary" style={{ background: 'transparent', border: '1px solid var(--glass-border)' }}>
           자기 소개
+        </a>
+        <a href="https://drive.google.com/drive/folders/1BSzkWOZ1YlhuihcXVitR1Q6L6MLwZCQe?usp=sharing" target="_blank" className="btn-primary" style={{ background: 'var(--accent-secondary)' }}>
+          PPT 보기
         </a>
       </div>
       

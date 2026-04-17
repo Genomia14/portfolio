@@ -42,9 +42,12 @@ export default function Experience() {
           <div>
             <h3 style={{ fontSize: '1.8rem', marginBottom: '0.5rem' }}>김성연</h3>
             <p style={{ color: 'var(--accent-primary)', fontWeight: 600, marginBottom: '0.5rem' }}>Backend Engineer</p>
-            <p style={{ fontSize: '0.95rem', color: 'var(--fg-muted)', maxWidth: '400px' }}>
+            <p style={{ fontSize: '0.95rem', color: 'var(--fg-muted)', maxWidth: '400px', marginBottom: '1rem' }}>
               "하드웨어의 논리 위에 소프트웨어의 창의성을 더하여 <br/> 안정적이고 가치 있는 서버를 구축합니다."
             </p>
+            <a href="https://drive.google.com/drive/folders/1BSzkWOZ1YlhuihcXVitR1Q6L6MLwZCQe?usp=sharing" target="_blank" style={{ color: 'var(--accent-secondary)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+              📁 포트폴리오 PPT 확인하기 →
+            </a>
           </div>
         </div>
       </div>
