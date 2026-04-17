@@ -6,8 +6,8 @@ export default function Hero() {
         안정적인 서버를 구축하는 <span className="gradient-text">김성연</span> 입니다
       </h1>
       <p style={{ fontSize: '1.25rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>
-        고성능 분산 시스템, 대용량 트래픽 처리, 그리고 데이터베이스 최적화에 특화된 
-        백엔드 엔지니어입니다. 견고한 아키텍처를 통해 비즈니스의 성장을 지원합니다.
+        하드웨어의 논리 위에 소프트웨어의 창의성을 더하여 <br />
+        안정적이고 가치 있는 서버를 구축합니다.
       </p>
       <div style={{ display: 'flex', gap: 'var(--space-sm)', justifyContent: 'center' }}>
         <a href="#projects" className="btn-primary">프로젝트 보기</a>

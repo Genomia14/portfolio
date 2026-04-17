@@ -14,7 +14,7 @@ export default function Skills() {
     },
     {
       category: "Tools & Others",
-      skills: ["Git", "GitHub", "SourceTree", "AutoCAD", "Arduino", "풀스택", "웹개발"]
+      skills: ["Git", "GitHub", "SourceTree", "AutoCAD", "Arduino"]
     }
   ];
 

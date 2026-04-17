@@ -13,22 +13,22 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "백엔드 엔지니어 포트폴리오 | 분산 시스템 전문가",
-  description: "고성능 분산 시스템, 데이터베이스 최적화 및 확장 가능한 마이크로서비스 아키텍처를 설계하는 시니어 백엔드 엔지니어입니다.",
-  keywords: ["백엔드 개발자", "소프트웨어 엔지니어", "분산 시스템", "Go", "Spring Boot", "시스템 아키텍처", "확장성"],
-  authors: [{ name: "Your Name" }],
+  title: "김성연 | 데이터와 시스템의 가치를 설계하는 백엔드 엔지니어",
+  description: "하드웨어의 논리 위에 소프트웨어의 창의성을 더하여 안정적이고 가치 있는 서버를 구축하는 백엔드 엔지니어 김성연입니다.",
+  keywords: ["김성연", "백엔드 개발자", "소프트웨어 엔지니어", "Spring Boot", "시스템 아키텍처", "Java", "데이터 최적화"],
+  authors: [{ name: "김성연" }],
   openGraph: {
-    title: "백엔드 엔지니어 포트폴리오 | 분산 시스템 전문가",
-    description: "Go, Spring Boot, Kafka를 활용한 견고한 백엔드 아키텍처 설계.",
+    title: "김성연 | 백엔드 엔지니어 포트폴리오",
+    description: "하드웨어의 논리 위에 소프트웨어의 창의성을 더하여 안정적이고 가치 있는 서버를 구축합니다.",
     url: "https://your-portfolio-url.vercel.app",
-    siteName: "백엔드 엔지니어 포트폴리오",
+    siteName: "김성연 포트폴리오",
     locale: "ko_KR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "백엔드 엔지니어 포트폴리오 | 분산 시스템 전문가",
-    description: "Go, Spring Boot, Kafka를 활용한 견고한 백엔드 아키텍처 설계.",
+    title: "김성연 | 백엔드 엔지니어 포트폴리오",
+    description: "하드웨어의 논리 위에 소프트웨어의 창의성을 더하여 안정적이고 가치 있는 서버를 구축합니다.",
   },
 };
 
