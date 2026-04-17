@@ -1,20 +1,20 @@
 export default function Skills() {
   const skillGroups = [
     {
-      category: "언어 (Languages)",
-      skills: ["Java", "Kotlin", "Go", "Python", "SQL"]
+      category: "Backend & Core",
+      skills: ["Java", "Spring Boot", "QueryDSL", "Servlet", "MVC", "JSP", "JWT", "Node.js", "Python"]
     },
     {
-      category: "프레임워크 및 도구",
-      skills: ["Spring Boot", "Echo", "Express", "Docker", "Kubernetes"]
+      category: "Frontend & UI",
+      skills: ["React", "Vue.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "jQuery", "Thymeleaf", "Bootstrap"]
     },
     {
-      category: "데이터베이스 및 캐시",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch"]
+      category: "Database & Cloud",
+      skills: ["MariaDB", "MySQL", "Oracle", "AWS", "API"]
     },
     {
-      category: "클라우드 및 DevOps",
-      skills: ["AWS (EC2, S3, RDS)", "GCP", "Vercel", "CI/CD (Actions)", "Terraform"]
+      category: "Tools & Others",
+      skills: ["Git", "GitHub", "SourceTree", "AutoCAD", "Arduino", "풀스택", "웹개발"]
     }
   ];
 
