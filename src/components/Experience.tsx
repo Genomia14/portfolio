@@ -16,7 +16,7 @@ export default function Experience() {
 
   return (
     <section id="experience" className="container" style={{ padding: 'var(--space-xl) 0' }}>
-      <h2 style={{ fontSize: '2.5rem', marginBottom: 'var(--space-md)' }}>경력 <span className="gradient-text">사항</span></h2>
+      <h2 style={{ fontSize: '2.5rem', marginBottom: 'var(--space-md)' }}>자기 <span className="gradient-text">소개</span></h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
         {experiences.map((exp, i) => (
           <div key={i} className="glass animate-fade-in" style={{ padding: 'var(--space-md)', borderRadius: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 'var(--space-sm)' }}>

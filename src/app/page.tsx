@@ -18,7 +18,7 @@ export default function Home() {
           {/* Project 1: Ex-Ledger */}
           <div className="glass card-hover" style={{ borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
             <div style={{ position: 'relative', height: '200px', width: '100%' }}>
-              <Image src="/ex-ledger.png" alt="Ex-Ledger" fill style={{ objectFit: 'cover', opacity: 0.8 }} />
+              <Image src="/ex-ledger-real.png" alt="Ex-Ledger" fill style={{ objectFit: 'cover', opacity: 0.8 }} />
               <div style={{ position: 'absolute', top: '12px', right: '12px', background: 'rgba(0,0,0,0.6)', padding: '4px 10px', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 600 }}>Team: 3명</div>
             </div>
             <div style={{ padding: 'var(--space-md)', flex: 1, display: 'flex', flexDirection: 'column' }}>
@@ -42,7 +42,7 @@ export default function Home() {
 
               <div style={{ marginTop: 'auto' }}>
                 <a href="https://github.com/RabbitHaru/Ex-Ledger.git" target="_blank" className="btn-primary" style={{ width: '100%', textAlign: 'center', fontSize: '0.9rem', display: 'block', padding: '0.6rem' }}>
-                  GitHub 보기
+                  프로젝트 보기
                 </a>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function Home() {
           {/* Project 2: Weatherly */}
           <div className="glass card-hover" style={{ borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
             <div style={{ position: 'relative', height: '200px', width: '100%' }}>
-              <Image src="/weatherly.png" alt="Weatherly" fill style={{ objectFit: 'cover', opacity: 0.8 }} />
+              <Image src="/weatherly-real.png" alt="Weatherly" fill style={{ objectFit: 'cover', opacity: 0.8 }} />
               <div style={{ position: 'absolute', top: '12px', right: '12px', background: 'rgba(0,0,0,0.6)', padding: '4px 10px', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 600 }}>Team: 3명</div>
             </div>
             <div style={{ padding: 'var(--space-md)', flex: 1, display: 'flex', flexDirection: 'column' }}>
@@ -75,7 +75,7 @@ export default function Home() {
 
               <div style={{ marginTop: 'auto' }}>
                 <a href="https://github.com/RabbitHaru/projectWeatherly.git" target="_blank" className="btn-primary" style={{ width: '100%', textAlign: 'center', fontSize: '0.9rem', display: 'block', padding: '0.6rem' }}>
-                  GitHub 보기
+                  프로젝트 보기
                 </a>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
           {/* Project 3: Verti */}
           <div className="glass card-hover" style={{ borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
             <div style={{ position: 'relative', height: '200px', width: '100%' }}>
-              <Image src="/verti.png" alt="Verti" fill style={{ objectFit: 'cover', opacity: 0.8 }} />
+              <Image src="/verti-real.png" alt="Verti" fill style={{ objectFit: 'cover', opacity: 0.8 }} />
               <div style={{ position: 'absolute', top: '12px', right: '12px', background: 'rgba(0,0,0,0.6)', padding: '4px 10px', borderRadius: '20px', fontSize: '0.75rem', fontWeight: 600 }}>1인 개발</div>
             </div>
             <div style={{ padding: 'var(--space-md)', flex: 1, display: 'flex', flexDirection: 'column' }}>
@@ -108,7 +108,7 @@ export default function Home() {
 
               <div style={{ marginTop: 'auto' }}>
                 <a href="https://github.com/Genomia14/Verti.git" target="_blank" className="btn-primary" style={{ width: '100%', textAlign: 'center', fontSize: '0.9rem', display: 'block', padding: '0.6rem' }}>
-                  GitHub 보기
+                  프로젝트 보기
                 </a>
               </div>
             </div>
@@ -118,7 +118,6 @@ export default function Home() {
 
       <Skills />
       <Experience />
-      <Contact />
       <Footer />
     </main>
   );
